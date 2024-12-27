@@ -1,0 +1,64 @@
+.nbs-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.heading {
+  position: absolute;
+  color: #028dfd;
+  font-size: 40px;
+}
+.nbs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+em {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.paragraph {
+  position: absolute;
+  color: #d6ff00;
+  margin-top: 150px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.icon-square {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.logos {
+  width: 35px;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.special {
+  margin-bottom: 100px;
+  margin-top: 0px;
+  height: 100px;
+  width: 100px;
+}
+.btn {
+  margin-top: 20px;
+}
+p {
+  letter-spacing: 1px;
+}
